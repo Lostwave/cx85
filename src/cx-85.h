@@ -35,7 +35,7 @@
 #define BUTTONMINUS	0x1F	//	11111
 #define BUTTONDOT 	0x1B	//	11011
 
-
+// Modify these if you want to change your keypad layout
 // Actions assigned to each button.
 // Use consumer_key = XXXX when you are using media keys
 // Use keyboard_keys[0] = XXXX when you want to use a regular keyboard key
@@ -59,23 +59,23 @@
 
 // Teensy 	Atari Interface Atari Plug		CX85 Board
 // ---------------------------------------------------
-// B0 		Atari Trigger	Pin 6			Green
-// B1 		Atari BPot		Pin 5			Blue
-// B2 		Atari Up		Pin 1			Brown
-// B3 		Atari Down		Pin 2			Red
-// B4 		Atari Left		Pin 3			Orange
-// B5 		Atari Right		Pin 4			Yellow
-// +5 		+5				Pin 7			Violet
-// Gnd 		Gnd				Pin 8			Gray
-// Unused   Atari APot		Pin 9 			White
+// B0       Atari Trigger   Pin 6           Green
+// B1       Atari BPot      Pin 5           Blue
+// B2       Atari Up        Pin 1           Brown
+// B3       Atari Down      Pin 2           Red
+// B4       Atari Left      Pin 3           Orange
+// B5       Atari Right     Pin 4           Yellow
+// +5       +5              Pin 7           Violet
+// Gnd      Gnd             Pin 8           Gray
+// Unused   Atari APot      Pin 9           White
 
-// 	Atari Plug 
-//	_____________
-//	\ 5 4 3 2 1 /
-//	 \ 9 8 7 6 /
+//  Atari Plug 
+//  _____________
+//  \ 5 4 3 2 1 /
+//   \ 9 8 7 6 /
 //    ---------	
 
-// Atari Board from top
+// CX85 Board from top
 //------------------------------------
 // B | R | O | Y | G | B | V | G | W
 // r | e | r | e | r | l | i | r | h
@@ -83,3 +83,4 @@
 // w |   | n | l | e | e | l | y | t
 // n |   | g | o | n |   | e |   | e
 //   |   | e | w |   |   | t |   | 
+//------------------------------------
