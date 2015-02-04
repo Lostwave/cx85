@@ -57,7 +57,7 @@
 #define ACTIONMINUS consumer_key = TRANSPORT_PREV_TRACK
 #define ACTIONDOT keyboard_keys[0] = KEYPAD_PERIOD
 
-// Teensy 	Atari Interface Atari Plug		CX85 Board
+// Teensy   Atari Interface Atari Plug      CX85 Board
 // ---------------------------------------------------
 // B0       Atari Trigger   Pin 6           Green
 // B1       Atari BPot      Pin 5           Blue
